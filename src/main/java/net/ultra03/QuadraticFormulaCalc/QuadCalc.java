@@ -23,7 +23,7 @@ public class QuadCalc {
 		System.out.println(c);
 		
 		if(Double.isNaN(firstAnswer) || Double.isNaN(secondAnswer)) {
-			System.out.println("Values entered are not applicable to the quadratic formula (they're imaginary numbers)");
+			System.out.println("Answer values are imaginary numbers");
 		} else {
 			System.out.println("The answers are:");
 			System.out.println(firstAnswer);
