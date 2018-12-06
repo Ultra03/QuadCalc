@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class QuadCalc {
 	
-	public void calculate() {
+	public static void calculate() {
 		// Initialize Scanner for user input
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Value for a: ");
